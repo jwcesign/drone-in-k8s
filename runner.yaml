@@ -69,6 +69,10 @@ spec:
         - name: DRONE_RPC_PROTO
           value: http
         - name: DRONE_RPC_SECRET
-          value: xxx
+          value: hello
         - name: DRONE_NAMESPACE_DEFAULT
           value: drone
+        - name: DRONE_RESOURCE_REQUEST_CPU
+          value: "250"
+        - name: DRONE_RESOURCE_REQUEST_MEMORY
+          value: 512Mi
